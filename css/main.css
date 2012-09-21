@@ -232,6 +232,117 @@ h2 .close {
 	text-align: center;
 }
 
+#poster-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 100;
+}
+
+#poster {
+	width: 570px;
+	height: 800px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	display: block;
+	background-color: #f1eae7;
+	z-index: 101;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+}
+
+#poster:before,
+#poster:after {
+	content: "";
+	position: absolute;
+	left: 36px;
+	width: 504px;
+	border-top: 1px solid #000;
+	height: 1px;
+	display: block;
+}
+
+#poster:before {
+	top: 30px;
+}
+
+#poster:after {
+	bottom: 30px;
+}
+
+#poster h2,
+#poster #description,
+#poster a {
+	position: absolute;
+	color: #000;
+}
+
+#poster h2 {
+	bottom: 120px;
+	left: 36px;
+}
+
+#poster #description {
+	top: 60px;
+	left: 36px;
+	font-size: 34px;
+	line-height: 44px;
+	width: 504px;
+}
+
+#poster #description p {
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+#poster .client {
+	position: absolute;
+	bottom: 100px;
+	left: 40px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+#poster a {
+	position: absolute;
+	bottom: 60px;
+	left: 40px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+/* Pastel colour schemes */
+#poster.red {
+	background-color: #D93A32;
+}
+
+#poster.blue {
+	background-color: #73B9FF;
+	/* #C0DFFF */
+}
+
+#poster.green {
+	background-color: #9CD861;
+}
+
+#poster.purple {
+	background-color: #9D61D8;
+}
+
+#poster.pink {
+	background-color: #B23673;
+}
+
+#poster.orange {
+	background-color: #db4d05;
+}
 
 
 
