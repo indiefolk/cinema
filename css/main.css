@@ -246,13 +246,12 @@ h2 .close {
 	width: 570px;
 	height: 800px;
 	position: absolute;
-	top: 20%;
-	left: 20%;
 	display: block;
-	background-color: #f1eae7;
+	background: url('../img/mask-poster.png') repeat scroll 0 0 #f1eae7;
 	z-index: 101;
 	text-transform: uppercase;
 	border: 2px solid #fff;
+	display: none;
 }
 
 #poster:before,
@@ -281,16 +280,23 @@ h2 .close {
 	color: #000;
 }
 
+#poster a#poster-title {
+	left: 0;
+	bottom: 0;
+}
+
 #poster h2 {
-	bottom: 120px;
+	bottom: 146px;
 	left: 36px;
+	line-height: 68px;
+	width: 504px;
 }
 
 #poster #description {
 	top: 60px;
 	left: 36px;
 	font-size: 34px;
-	line-height: 44px;
+	line-height: 36px;
 	width: 504px;
 }
 
@@ -319,28 +325,34 @@ h2 .close {
 }
 
 /* Pastel colour schemes */
-#poster.red {
+#poster.red,
+#poster.poster-1  {
 	background-color: #D93A32;
 }
 
-#poster.blue {
+#poster.blue,
+#poster.poster-2 {
 	background-color: #73B9FF;
 	/* #C0DFFF */
 }
 
-#poster.green {
+#poster.green,
+#poster.poster-3 {
 	background-color: #9CD861;
 }
 
-#poster.purple {
+#poster.purple,
+#poster.poster-4 {
 	background-color: #9D61D8;
 }
 
-#poster.pink {
+#poster.pink,
+#poster.poster-5 {
 	background-color: #B23673;
 }
 
-#poster.orange {
+#poster.orange,
+#poster.poster-6 {
 	background-color: #db4d05;
 }
 

@@ -41,7 +41,7 @@ FO.Router = Backbone.Router.extend({
 
             var Poster = new FO.PosterView( { model: folioModel } );
 
-            $('body').append(Poster.render().el);
+            var html = Poster.render().$el;
 
         }
         else {

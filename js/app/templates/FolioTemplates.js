@@ -7,12 +7,12 @@ FO.Templates.SignItem = '<a href="#work/<%= id %>">\
                         </a>';
 
 FO.Templates.Poster = '<div id="poster-wrapper">\
-					        <div id="poster">\
-					            <h2><%= title %></h2>\
-					            <div id="description">\
-					                <p><%= description %></p>\
-					            </div>\
-					            <p class="client"><%= client %></p>\
-					            <a href="#"><%= URL %></a>\
-					        </div>\
-					    </div>';
+                           <div id="poster" class="poster-<%= model.get("id") %>">\
+                                <a id="poster-title" href="<%= model.get("extURL") %>" target="_blank"><h2><%= model.get("title") %></h2></a>\
+                                <div id="description">\
+                                    <p><%= model.get("description") %></p>\
+                                </div>\
+                                <p class="client"><%= model.get("client") %></p>\
+                                <a href="<%= model.get("extURL") %>" target="_blank"><%= model.get("extURL").replace("http://", "") %></a>\
+                            </div>\
+                        </div>';

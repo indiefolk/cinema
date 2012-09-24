@@ -5,9 +5,10 @@
 			"title": "Team GB",
 			"url": "/notld",
 			"imgUrl": "",
-			"description": "This is a thing I did",
-			"extURL": "http://www.aplace.com",
-			"client": "someone"
+			"description": "The online presence for our home nations at the London 2012 Olympics.",
+			"tech": " Front end styles &amp; JS on top of a Drupal site. Modular JS, SASS",
+			"extURL": "http://www.teamgb.com",
+			"client": "Pirata"
 		},
 
 		{
@@ -15,9 +16,10 @@
 			"title": "ASOS: Urban Tour",
 			"url": "/notld",
 			"imgUrl": "",
-			"description": "This is a thing I did",
-			"extURL": "http://www.aplace.com",
-			"client": "someone"
+			"description": "Campaign site for the ASOS Urban Tour fullscreen video experience.",
+			"tech": " Integration with fullscreen Flash feature video and JS &amp; CSS for content pages. Modular JS, state management between Flash and JS, complex CSS techniques for angles, forms and overlays",
+			"extURL": "http://www.asos.com/urbantour",
+			"client": "Stink Digital"
 		},
 
 		{
@@ -25,9 +27,10 @@
 			"title": "McLaren Formula 1",
 			"url": "/notld",
 			"imgUrl": "",
-			"description": "This is a thing I did",
-			"extURL": "http://www.aplace.com",
-			"client": "someone"
+			"description": "The 2011 site for Mclaren's F1 racing team.",
+			"tech": "JS, CSS",
+			"extURL": "http://www.mclaren.com/formula1",
+			"client": "Pirata"
 		},
 
 		{
@@ -35,19 +38,21 @@
 			"title": "Vauxhall Football",
 			"url": "/notld",
 			"imgUrl": "",
-			"description": "This is a thing I did",
-			"extURL": "http://www.aplace.com",
-			"client": "someone"
+			"description": "Vauxhall's sponsorship of Home Nations football.",
+			"tech": "Prototypal JS, CSS fonts and styling",
+			"extURL": "http://www.vauxhallfootball.com",
+			"client": "Skive"
 		},
 
 		{
 			"id": 5,
-			"title": "dunhill",
+			"title": "dunhill: Day 8",
 			"url": "/notld",
 			"imgUrl": "",
-			"description": "This is a thing I did",
-			"extURL": "http://www.aplace.com",
-			"client": "someone"
+			"description": "A part of dunill's series of microsites, Day 8 details the latest news and articles from the dunhill world.",
+			"tech": "JS & CSS",
+			"extURL": "http://www.dunhill.com/day8",
+			"client": "Skive"
 		},
 
 		{
@@ -55,19 +60,21 @@
 			"title": "Sony Playstation: The Den",
 			"url": "/notld",
 			"imgUrl": "",
-			"description": "This is a thing I did",
-			"extURL": "http://www.aplace.com",
-			"client": "someone"
+			"description": "Playstation portal page for their 'The Den' activity site",
+			"tech": "Responsive CSS",
+			"extURL": "http://www.playstationden.co.uk",
+			"client": "Agency Republic"
 		},
 
 		{
 			"id": 7,
-			"title": "Nokia World 2010",
+			"title": "Nokia World 2010: Backstage",
 			"url": "/notld",
 			"imgUrl": "",
-			"description": "This is a thing I did",
-			"extURL": "http://www.aplace.com",
-			"client": "someone"
+			"description": "Nokia launch site for the Nokia World 2010 conference.",
+			"tech": "JS & CSS",
+			"extURL": "http://www.nokiaworld2010.com/backstage",
+			"client": "RG/A"
 		}
 	]
 }

@@ -111,8 +111,7 @@ FO.SignView = Backbone.View.extend({
     showItem: function (e) {
 
         e.preventDefault();
-
-        console.log('clicked');
+        e.stopPropagation();
 
         FO.App.navigate($(this).attr('href'), {trigger: true, replace: true});
 
